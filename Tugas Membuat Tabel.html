@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Mata Kuliah</title>
+        <style>
+            /* Styling tabel */
+            table {
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+            th, td {
+                padding: 10px; /* padding untuk jarak dalam sel */
+                border: 2px solid #333; /* border lebih tipis */
+            }
+            th {
+                background-color: #d0ff00;
+                color: rgb(17, 17, 17);
+            }
+            td {
+                background-color: #f2f2f2;
+            }
+            /* Menambahkan hover effect */
+            tr:hover {
+                background-color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Tabel dengan sizes, padding, spacing, colspan, rowspan, dan styling -->
+        <table cellpadding="15" cellspacing="5">
+            <tr>
+                <th colspan="3">Data Mata Kuliah Mahasiswa</th> <!-- Colspan untuk judul tabel -->
+            </tr>
+            <tr>
+                <th>NIM</th>
+                <th>MATA KULIAH</th>
+                <th>RUANGAN</th>
+            </tr>
+            <tr>
+                <td>23090083</td>
+                <td rowspan="2">Pemrograman Web</td> <!-- Rowspan untuk menggabungkan dua baris -->
+                <td rowspan="3">Lab Kom 1</td> <!-- Rowspan untuk menggabungkan tiga baris -->
+            </tr>
+            <tr>
+                <td>23090152</td>
+            </tr>
+            <tr>
+                <td>23090158</td>
+                <td>Pemrograman Komputer</td>
+            </tr>
+            <tr>
+                <td>23090160</td>
+                <td>Desain Grafis Multimedia</td>
+                <td>Lab Kom 2</td>
+            </tr>
+            <tr>
+                <td>23090007</td>
+                <td>Matematika Numerik</td>
+                <td>D4.3</td>
+            </tr>
+            <tr>
+                <td>23090141</td>
+                <td>Statistika</td>
+                <td>D4.6</td>
+            </tr>
+        </table>
+    </body>
+</html>
